@@ -1,5 +1,8 @@
+# OpenCV:
+    # OpenCV is a library of programming function mainly aimed at real time computer-vision application
+    # The Librariy is cross-platform and free for use under the open source Berkeley Software Distribution(BSD) License
 # Installation opencv:
-    cv stands for computer vision, so here we are installing "open computer vision" libraries from python libraries.<br>
+    # cv stands for computer vision, so here we are installing "open computer vision" libraries from python libraries.<br>
     : !pip install opencv-python
-    it will install the latest version of python opencv libraries<br>
+    # it will install the latest version of python opencv libraries<br>
 ----------------------------------------------------------------------------------------------
