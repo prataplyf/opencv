@@ -5,7 +5,7 @@ import cv2
 img = cv2.imread('Resources/githubProfile.jpg')
 # to crop/reshape image we'll using matrix formula that contains the initial
 # and final coordinates of that image
-print(img.shape)
+# print(img.shape)
 # imgCrop = img[height(y-axis), width(x-axis)]
 # height: that contains the initial and final points in y-axis
 # width: that contains the initial and final points in x-axis

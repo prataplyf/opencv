@@ -4,6 +4,7 @@ import cv2
 # import image
 img = cv2.imread('Resources/githubProfile.jpg')
 # to resize image we need image, resize_width and resize_height
+# print(img.shape)
 # openCV contains width first then it call height
 # while simple matrix occour height first and then width
 # imgResize = cv2.resize(original image, (width, height))
