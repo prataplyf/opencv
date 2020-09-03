@@ -4,7 +4,7 @@ import cv2
 import numpy as np
 # import image
 img = np.zeros((512,512))
-
+# print(img.shape)
 # cv2.putText(img, "Ashish Pratap Singh", (20,300), cv2.FONT_HERSHEY_SIMPLEX, 1, (90,170,90), thickness=2, lineType=1,bottomLeftOrigin=1)
 cv2.putText(img, "SHAPES & TEXTS", (100,50), cv2.FONT_HERSHEY_SIMPLEX, 1, (25,25,90), thickness=2)
 cv2.imshow("Original", img)

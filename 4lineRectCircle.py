@@ -4,7 +4,7 @@ import cv2
 import numpy as np
 # import image
 img = np.zeros((512,512))
-
+# print(img.shape)
 # putText
 cv2.putText(img, "SHAPES & TEXTS", (100,30), cv2.FONT_HERSHEY_SIMPLEX, 1, (25,25,90), thickness=2)
 # cv2.putText() have contains several parameters:
